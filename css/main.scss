@@ -1,0 +1,17 @@
+.horizontal-form{
+  width: 100%;
+  max-width: 500px;
+  > div{
+    display: inline-block;
+    width: 100%;
+    >label{
+      width: 50%;
+      display: inline-block;
+      float: left;
+    }
+    select, input, textarea{
+      width: 50%;
+      float: right;
+    }
+  }
+}
